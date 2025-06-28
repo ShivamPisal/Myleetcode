@@ -16,11 +16,11 @@ This is a simple and responsive web app built using HTML, CSS, and JavaScript th
 Solved questions are displayed in a pie chart, and other stats are shown as text.
 
 🔗 Features
-Fetches live data using LeetCode's GraphQL API
+Fetches live data using LeetCode's API
 
 Displays results in a clean and responsive layout
 
-Includes simple animations and charts
+Includes simple Pia charts
 
 No login or setup required
 
