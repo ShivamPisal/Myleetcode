@@ -116,7 +116,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const cardsData = [
       { label: "Total Solved", value: `${totalSolved}/${totalQues}` },
       { label: "Ranking", value: fData.data.matchedUser.profile.ranking},
-      { label: "AcceptanceRate", value: fData.data.matchedUser.profile.reputation },
+      { label: "Reputation", value: fData.data.matchedUser.profile.reputation },
     ];
 
     cardStatsContainer.innerHTML = cardsData
