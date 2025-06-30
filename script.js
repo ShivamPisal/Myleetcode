@@ -25,11 +25,12 @@ document.addEventListener("DOMContentLoaded",function(){
     }
 
     async function fetchUserDetails(username) {
+        const proxyUrl = 'https://cors-anywhere.herokuapp.com/';
         const url = `https://leetcode-stats-api.herokuapp.com/${username}`
         try{
             searchButton.textContent="Seraching....";
             searchButton.disabled =true;
-            const response = await fetch(url);
+            const response = await fetch(proxyUrl+url);
             if(!response.ok){
                 throw new Error("Unable to fetch the User details");
             }
