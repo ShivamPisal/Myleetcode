@@ -1,6 +1,9 @@
 # MyLeetCode
 This is a simple and responsive web app built using HTML, CSS, and JavaScript that allows users to enter any LeetCode username and view:
 
+
+![Screenshot](./screenshot.png)
+
 ✅ Total questions solved
 
 🟢 Easy questions solved
@@ -11,7 +14,7 @@ This is a simple and responsive web app built using HTML, CSS, and JavaScript th
 
 🏆 User ranking
 
-📈 Acceptance rate
+📈 Reputation
 
 Solved questions are displayed in a pie chart, and other stats are shown as text.
 
